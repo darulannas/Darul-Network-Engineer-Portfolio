@@ -8,4 +8,5 @@ Mikrotik
 
 2. Troubleshoot
    - Trace Router, kendala tinggi cpu load (main router ho, issue queue dan bonding interface area)
+   - Trace Router, kendala tinggi cpu load (kamal, issue tinggi latency dibawah bridge)
    - 
