@@ -13,7 +13,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 - **LAN Network** — `172.16.10.0/24`  
 - **WAN Interface** — connected to ISP (via DHCP or static IP)  
 - **Client PC** — obtains IP via DHCP from the router
-  
+<br>
 
 **3. Configuration Steps**
 
