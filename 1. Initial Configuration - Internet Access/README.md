@@ -5,11 +5,13 @@ The configuration covers basic setup such as system identity, IP addressing, NAT
 This is part of my MTCNA learning practice, reflecting real-world setups I have implemented in office environments.
 
 **2. Network Topology**
+
 <img width="374" height="447" alt="Network Topology" src="https://github.com/user-attachments/assets/7cd7ce1c-bb7d-4e36-ae00-4b6e33cb5746" />
 - **MikroTik Router** — acts as gateway and NAT device  
 - **LAN Network** — `172.16.10.0/24`  
 - **WAN Interface** — connected to ISP (via DHCP or static IP)  
-- **Client PC** — obtains IP via DHCP from the router 
+- **Client PC** — obtains IP via DHCP from the router
+  
 
 **3. Configuration Steps**
 
