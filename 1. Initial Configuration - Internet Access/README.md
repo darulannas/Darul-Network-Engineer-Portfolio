@@ -2,7 +2,8 @@
 
 This project demonstrates the initial configuration steps for enabling internet access on a MikroTik router.
 The configuration covers basic setup such as system identity, IP addressing, NAT masquerade, DNS settings, and route configuration.
-This is part of my MTCNA learning practice, reflecting real-world setups I have implemented in office environments.
+This is part of my MTCNA learning practice, reflecting real-world setups I have implemented in office environments.\
+<br>
 
 **2. Network Topology**
 
