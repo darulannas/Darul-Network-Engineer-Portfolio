@@ -7,7 +7,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 
 **2. Network Topology**
 
-<img width="374" height="447" alt="Network Topology" src="https://github.com/user-attachments/assets/7cd7ce1c-bb7d-4e36-ae00-4b6e33cb5746" />
+<img width="349" height="420" alt="Network Topology" src="https://github.com/user-attachments/assets/580050d7-efe5-4484-a75d-34e89b64ec63" />
 
 - **MikroTik Router** — acts as gateway and NAT device  
 - **LAN Network** — `172.16.10.0/24`  
