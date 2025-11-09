@@ -4,7 +4,6 @@ This project demonstrates the initial configuration steps for enabling internet 
 The configuration covers basic setup such as system identity, IP addressing, NAT masquerade, DNS settings, and route configuration.
 This is part of my MTCNA learning practice, reflecting real-world setups I have implemented in office environments.
 
-
 **2. Network Topology**
 
 <img width="374" height="447" alt="Network Topology" src="https://github.com/user-attachments/assets/7cd7ce1c-bb7d-4e36-ae00-4b6e33cb5746" />
