@@ -10,6 +10,7 @@ Mikrotik
    - Trace Router, kendala tinggi cpu load (main router gco, issue queue dan bonding interface area)
    - Trace Router, kendala tinggi cpu load (kamal, issue tinggi latency dibawah bridge)
    - ip conflict di dhcp gco dan kamal
+   - Koneksi vpn yg tidak bisa terhubung ke jaringan lokal
   
 3. Refactor firewall
    - filter, NAT, mangle
