@@ -29,7 +29,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 **6. Tools Used**
 - MikroTik RouterOS v6
 - WinBox (for GUI configuration)
-- VirtualBox + CHR (optional if simulated)
+- VMware + CHR (for simulated)
 
 **7. Author Notes**
 
