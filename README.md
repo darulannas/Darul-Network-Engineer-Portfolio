@@ -6,12 +6,14 @@ Mikrotik
    - LAN IP address and default gateway
    - Basic Firewall - NAT masquerade
 
-2. Troubleshoot
-   - Trace Router, kendala tinggi cpu load (main router gco, issue queue dan bonding interface area)
-   - Trace Router, kendala tinggi cpu load (kamal, issue tinggi latency dibawah bridge)
-   - ip conflict di dhcp gco dan kamal
-   - Koneksi vpn yg tidak bisa terhubung ke jaringan lokal
-  
-3. Refactor firewall
+2. Refactor firewall
    - filter, NAT, mangle
+
+99. Troubleshooting
+   - Router trace: High CPU load on the main GCO router caused by queue issues and bonding interface in the area
+   - Router trace: High CPU load in Kamal due to high latency under the bridge interface
+   - IP conflict on DHCP servers at GCO and Kamal
+   - VPN connection unable to access the local network
+  
+
      
