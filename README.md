@@ -9,7 +9,7 @@ Mikrotik
 2. Refactor firewall
    - filter, NAT, mangle
 
-99. Troubleshooting
+3. Troubleshooting
    - Router trace: High CPU load on the main GCO router caused by queue issues and bonding interface in the area
    - Router trace: High CPU load in Kamal due to high latency under the bridge interface
    - IP conflict on DHCP servers at GCO and Kamal
