@@ -36,5 +36,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 Created by Darul Annas as part of professional documentation for MikroTik network configuration practices.
 This project is intended for educational and portfolio purposes.
 Feel free to clone or suggest improvements.
+This documentation is inspired by the MTCNA outline, which you can review here:
+https://mikrotik.com/training/about
 
 
