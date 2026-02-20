@@ -14,6 +14,8 @@ Mikrotik
    - Router trace: High CPU load in Kamal due to high latency under the bridge interface
    - IP conflict on DHCP servers at GCO and Kamal
    - VPN connection unable to access the local network
-  
+
+
+**Note : Other portfolio projects are currently in the documentation process and will be published soon**
 
      
