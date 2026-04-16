@@ -16,6 +16,20 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 <br>
 
 **3. Configuration Steps**
+# Set system identity
+/system identity set name=MTCNA-Router
+
+# Configure LAN interface
+/ip address add address=172.16.10.1/24 interface=ether2
+
+# Configure WAN interface (DHCP)
+ /ip dhcp-client add interface=ether1 disabled=no
+
+# Configure NAT for Internet Access
+/ip firewall nat add chain=srcnat out-interface=ether2 action=masquerade
+
+# Set DNS and allow remote requests
+/ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
 
 **4. Verification**
 
