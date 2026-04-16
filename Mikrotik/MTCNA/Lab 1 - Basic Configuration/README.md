@@ -31,6 +31,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 
 # 5. Set DNS and allow remote requests
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+```
 
 **4. Verification**
 
