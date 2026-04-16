@@ -20,8 +20,10 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 # 1. Set system identity
 /system identity set name=MTCNA-Router
 
-# 2. Configure LAN interface
+# 2. Configure LAN interface and DHCP
 /ip address add address=172.16.10.1/24 interface=ether2
+/ip pool add name=pool1 ranges=172.16.10.2-172.16.10.254
+/ip dhcp-server add name=server1 interface=ether2 address-pool=pool1 disabled=no
 
 # 3. Configure WAN interface (DHCP)
  /ip dhcp-client add interface=ether1 disabled=no
