@@ -42,6 +42,12 @@ VPCS :
 ```
 
 **4. Verification**
+Mikrotik :
+<img width="704" height="347" alt="Screenshot 2026-04-18 215224" src="https://github.com/user-attachments/assets/e54b42f3-ae68-4754-9a7c-e8d8d0984393" />
+
+VPCS :
+<img width="649" height="290" alt="Screenshot 2026-04-18 215638" src="https://github.com/user-attachments/assets/686226c0-4351-49a8-ab5d-6315836906de" />
+
 
 **5. Key Learning Points**
 - Understood the purpose of default routing for internet access.
