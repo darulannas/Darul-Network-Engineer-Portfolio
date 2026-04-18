@@ -17,7 +17,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 
 **3. Configuration Steps**
 ```bash
-Mikrotik<br>
+Mikrotik :
 # 1. Set system identity
 /system identity set name=MTCNA-Router
 
@@ -36,8 +36,7 @@ Mikrotik<br>
 # 6. Set DNS and allow remote requests
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
 
-<br><br>
-VPCS<br>
+VPCS :
 # 1. Set IP
 /ip 172.16.10.2 172.16.10.1
 ```
