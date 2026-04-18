@@ -11,7 +11,7 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 
 - **MikroTik Router** — acts as gateway and NAT device  
 - **LAN Network** — `172.16.10.0/24`  
-- **WAN Interface** — connected to ISP (via DHCP or static IP)  
+- **WAN Interface** — connected to ISP (via DHCP)  
 - **Client PC** — static IP from mikrotik
 <br>
 
