@@ -29,7 +29,10 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 # 4. Configure NAT for Internet Access
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 
-# 5. Set DNS and allow remote requests
+# 5. Configure Default Route
+/ip route add dst-address=0.0.0.0/0 gateway=192.168.52.2
+
+# 6. Set DNS and allow remote requests
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
 ```
 
