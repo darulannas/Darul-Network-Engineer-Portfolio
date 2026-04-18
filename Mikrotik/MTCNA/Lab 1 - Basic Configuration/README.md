@@ -42,6 +42,7 @@ VPCS :
 ```
 
 **4. Verification**
+
 Mikrotik :
 <img width="704" height="347" alt="Screenshot 2026-04-18 215224" src="https://github.com/user-attachments/assets/e54b42f3-ae68-4754-9a7c-e8d8d0984393" />
 
