@@ -39,6 +39,9 @@ Mikrotik :
 VPCS :
 # 1. Set IP
 /ip 172.16.10.2 172.16.10.1
+
+# 2. Set DNS
+/ip dns 8.8.8.8
 ```
 
 **4. Verification**
