@@ -12,11 +12,12 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 - **MikroTik Router** — acts as gateway and NAT device  
 - **LAN Network** — `172.16.10.0/24`  
 - **WAN Interface** — connected to ISP (via DHCP)  
-- **Client PC** — static IP from mikrotik
+- **Client PC** — static IP
 <br>
 
 **3. Configuration Steps**
 ```bash
+Mikrotik<br>
 # 1. Set system identity
 /system identity set name=MTCNA-Router
 
@@ -34,6 +35,11 @@ This is part of my MTCNA learning practice, reflecting real-world setups I have 
 
 # 6. Set DNS and allow remote requests
 /ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+<br><br>
+VPCS<br>
+# 1. Set IP
+/ip 172.16.10.2 172.16.10.1
 ```
 
 **4. Verification**
