@@ -40,3 +40,31 @@ VPCS :
 # 3. Test connectivity
 /ping 172.16.10.1
 /ping 8.8.8.8
+```
+
+**4. Verification**
+
+
+<br>
+
+**5. Key Learning Points**
+
+- Learned how DHCP simplifies IP management in a network
+- Understood how MikroTik distributes IP addresses dynamically
+- Identified the role of DHCP Pool and Network configuration
+- Verified successful lease assignment from router to client
+- Practiced real-world implementation aligned with MTCNA fundamentals
+<br>
+
+**6. Tools Used**
+- MikroTik RouterOS v6
+- Putty (for configuration)
+- VMware + CHR (for simulated)
+<br>
+
+**7. Author Notes**
+This lab was created by Darul Annas as part of hands-on practice in MikroTik networking.
+It demonstrates how DHCP can streamline network configuration in practical environments.
+Feedback and suggestions are always welcome.
+For reference, this lab follows the MTCNA learning path:
+https://mikrotik.com/training/about
