@@ -45,3 +45,32 @@ VPCS :
 /ping 172.16.10.3
 /ping 172.16.10.2
 ```
+
+**4. Verification**
+
+
+<br>
+
+**5. Key Learning Points**
+
+- Understood how bridging enables communication at Layer 2
+- Learned how to combine multiple interfaces into a single broadcast domain
+- Observed how MikroTik can function as both router and switch
+- Verified connectivity between devices on different physical ports
+- Introduced basic loop prevention using RSTP
+<br>
+
+**6. Tools Used**
+
+- MikroTik RouterOS v6
+- Putty (for configuration)
+- VMware + CHR (for simulated)
+<br>
+
+**7. Author Notes**
+
+This lab was created by Darul Annas as part of hands-on exploration of MikroTik switching features.
+It highlights how bridge interfaces simplify network design by allowing multiple ports to behave as a single logical segment.
+
+This documentation follows the MTCNA learning path:
+https://mikrotik.com/training/about
