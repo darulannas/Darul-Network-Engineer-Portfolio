@@ -54,6 +54,7 @@ VPCS :
 <br>
 
 **5. Key Learning Points**
+
 - Understood the purpose of default routing for internet access.
 - Practiced creating NAT rules using masquerade.
 - Learned how DNS and DHCP clients are used in RouterOS.
@@ -62,6 +63,7 @@ VPCS :
 <br>
 
 **6. Tools Used**
+
 - MikroTik RouterOS v6
 - Putty (for configuration)
 - VMware + CHR (for simulated)
