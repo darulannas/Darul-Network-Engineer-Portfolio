@@ -57,12 +57,14 @@ VPCS :
 <br>
 
 **6. Tools Used**
+
 - MikroTik RouterOS v6
 - Putty (for configuration)
 - VMware + CHR (for simulated)
 <br>
 
 **7. Author Notes**
+
 This lab was created by Darul Annas as part of hands-on practice in MikroTik networking.
 It demonstrates how DHCP can streamline network configuration in practical environments.
 Feedback and suggestions are always welcome.
