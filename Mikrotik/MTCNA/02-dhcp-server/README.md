@@ -11,9 +11,11 @@ This is a fundamental concept in MTCNA networking and widely used in real-world 
 - Automatically assign IP addresses to clients
 - Verify DHCP lease allocation
 - Understand DHCP workflow in LAN environments
+<br>
 
 **3. Network Topology**
 
 - **MikroTik** — acts as DHCP Server & Gateway
 - **Client** — receives IP automatically from DHCP
 - **Internet access provided** — via NAT (from Lab 1)
+<br>
