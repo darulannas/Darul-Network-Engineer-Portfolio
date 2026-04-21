@@ -62,7 +62,7 @@ VPCS :
 
 **6. Tools Used**
 - MikroTik RouterOS v6
-- Putty (for mikrotik configuration)
+- Putty (for configuration)
 - VMware + CHR (for simulated)
 
 **7. Author Notes**
