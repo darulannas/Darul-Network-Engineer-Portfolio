@@ -51,7 +51,7 @@ Mikrotik :
 
 VPCS :
 <img width="649" height="290" alt="Screenshot 2026-04-18 215638" src="https://github.com/user-attachments/assets/686226c0-4351-49a8-ab5d-6315836906de" />
-
+<br>
 
 **5. Key Learning Points**
 - Understood the purpose of default routing for internet access.
@@ -59,11 +59,13 @@ VPCS :
 - Learned how DNS and DHCP clients are used in RouterOS.
 - Verified connectivity using ping and traceroute.
 - Applied practical concepts from MTCNA curriculum in a real environment.
+<br>
 
 **6. Tools Used**
 - MikroTik RouterOS v6
 - Putty (for configuration)
 - VMware + CHR (for simulated)
+<br>
 
 **7. Author Notes**
 
