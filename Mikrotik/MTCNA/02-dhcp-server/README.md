@@ -1,4 +1,4 @@
-<img width="635" height="177" alt="image" src="https://github.com/user-attachments/assets/3d3b8c6e-d846-458b-927e-e24a4098e596" />**1. Project Overview**
+**1. Project Overview**
 
 This lab focuses on setting up a DHCP Server on a MikroTik router to provide automatic IP address assignment for devices within the local network.
 Instead of configuring IP addresses manually on each client, DHCP simplifies network management by dynamically distributing IP configuration.
