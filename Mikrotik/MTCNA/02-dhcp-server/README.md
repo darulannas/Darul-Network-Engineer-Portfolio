@@ -7,6 +7,8 @@ This setup is commonly used in office environments and is part of the core conce
 
 **2. Network Topology**
 
+<img width="347" height="420" alt="image" src="https://github.com/user-attachments/assets/50c6ca6e-4eb4-4d21-b05f-436ebb01a0a3" />
+
 - **MikroTik Router** — functions as gateway and DHCP Server  
 - **LAN Network** — `172.16.10.0/24`  
 - **WAN Interface** — connected to ISP (via DHCP)  
