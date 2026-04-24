@@ -16,19 +16,31 @@ This setup is commonly used in office environments and is part of the core conce
 **3. Configuration Steps**
 ```bash
 MikroTik :
-# 1. Define IP Address LAN Network
+# 1. Configure LAN interface
 /ip address add address=172.16.10.1/24 interface=ether2
 
-# 2. Define IP Pool for DHCP Clients
+# 2. Configure WAN interface (DHCP)
+ /ip dhcp-client add interface=ether1 disabled=no
+
+# 3. Configure NAT for Internet Access
+/ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
+
+# 4. Configure Default Route
+/ip route add dst-address=0.0.0.0/0 gateway=192.168.52.2
+
+# 5. Define IP Pool for DHCP Clients
 /ip pool add name=pool1 ranges=172.16.10.10-172.16.10.100
 
-# 3. Enable DHCP Server on LAN Interface
+# 6. Enable DHCP Server on LAN Interface
 /ip dhcp-server add name=server1 interface=ether2 address-pool=pool1 disabled=no
 
-# 4. Specify Network Parameters
+# 7. Specify Network Parameters
 /ip dhcp-server network add address=172.16.10.0/24 gateway=172.16.10.1 dns-server=8.8.8.8,1.1.1.1
 
-# 5. Verify DHCP Server Status
+# 8. Set DNS and allow remote requests
+/ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+# 9. Verify DHCP Server Status
 /ip dhcp-server print
 
 VPCS :
