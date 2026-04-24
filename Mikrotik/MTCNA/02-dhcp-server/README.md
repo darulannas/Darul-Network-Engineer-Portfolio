@@ -28,17 +28,17 @@ MikroTik :
 # 4. Configure Default Route
 /ip route add dst-address=0.0.0.0/0 gateway=192.168.52.2
 
-# 5. Define IP Pool for DHCP Clients
+# 5. Set DNS and allow remote requests
+/ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+# 6. Define IP Pool for DHCP Clients
 /ip pool add name=pool1 ranges=172.16.10.10-172.16.10.100
 
-# 6. Enable DHCP Server on LAN Interface
+# 7. Enable DHCP Server on LAN Interface
 /ip dhcp-server add name=server1 interface=ether2 address-pool=pool1 disabled=no
 
-# 7. Specify Network Parameters
+# 8. Specify Network Parameters
 /ip dhcp-server network add address=172.16.10.0/24 gateway=172.16.10.1 dns-server=8.8.8.8,1.1.1.1
-
-# 8. Set DNS and allow remote requests
-/ip dns set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
 
 # 9. Verify DHCP Server Status
 /ip dhcp-server print
