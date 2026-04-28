@@ -31,7 +31,7 @@ wpa2-pre-shared-key=12345678
 /interface wireless set wlan1 security-profile=wifi-sec
 
 # 4. Assign Wireless Interface to Bridge (if using bridge)
-/interface bridge port add bridge=bridge-LAN interface=wlan1
+/interface bridge port add bridge=bridge1 interface=wlan1
 
 # 5. Verify Wireless Status
 /interface wireless print
