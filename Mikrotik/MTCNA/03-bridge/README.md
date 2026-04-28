@@ -30,7 +30,7 @@ MikroTik :
 /ip address add address=172.16.10.1/24 interface=bridge1
 
 # 4. Enable RSTP (optional, recommended)
-/interface bridge set bridge-LAN protocol-mode=rstp
+/interface bridge set bridge1 protocol-mode=rstp
 
 # 5. Verify Bridge Status
 /interface bridge print
