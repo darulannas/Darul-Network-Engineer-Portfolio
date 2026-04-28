@@ -8,6 +8,8 @@ This approach is commonly applied in small network environments where a router a
 
 **2. Network Topology**
 
+<img width="348" height="419" alt="image" src="https://github.com/user-attachments/assets/06133274-6969-401b-992d-f3cc68481c44" />
+
 - **MikroTik Router** — operates as gateway and bridge device  
 - **Bridge Interface** — connects multiple Ethernet ports into one network  
 - **LAN Network** — `172.16.10.0/24`  
@@ -18,14 +20,14 @@ This approach is commonly applied in small network environments where a router a
 ```bash
 MikroTik :
 # 1. Create Bridge Interface
-/interface bridge add name=bridge-LAN
+/interface bridge add name=bridge1
 
 # 2. Add Interfaces to Bridge
-/interface bridge port add bridge=bridge-LAN interface=ether2
-/interface bridge port add bridge=bridge-LAN interface=ether3
+/interface bridge port add bridge=bridge1 interface=ether2
+/interface bridge port add bridge=bridge1 interface=ether3
 
 # 3. Assign IP Address to Bridge
-/ip address add address=172.16.10.1/24 interface=bridge-LAN
+/ip address add address=172.16.10.1/24 interface=bridge1
 
 # 4. Enable RSTP (optional, recommended)
 /interface bridge set bridge-LAN protocol-mode=rstp
