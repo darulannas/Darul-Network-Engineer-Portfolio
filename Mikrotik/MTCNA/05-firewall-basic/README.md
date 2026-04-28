@@ -1,12 +1,15 @@
 **1. Project Overview**
 
-This lab focuses on implementing basic firewall filter rules on a MikroTik router to control traffic and protect the network.
-By applying filtering policies, the router can decide which traffic is allowed or blocked, improving overall network security.
+This lab focuses on implementing basic firewall filter rules on a MikroTik router to control and secure network traffic.
+The router will be configured to allow legitimate traffic while blocking unwanted or potentially harmful connections.
 
-This configuration represents essential firewall practices in MTCNA and is commonly applied in real-world network environments.\
+Before applying firewall rules, the router must already have a working internet connection and basic network configuration.
+This lab builds on the setup completed in Lab 1 (Initial Configuration).
 <br>
 
 **2. Network Topology**
+
+<img width="346" height="419" alt="image" src="https://github.com/user-attachments/assets/1f10bbba-345e-4510-9588-6f1df5622bdd" />
 
 - **MikroTik Router** — acts as gateway and firewall  
 - **LAN Network** — `172.16.10.0/24`  
@@ -17,6 +20,12 @@ This configuration represents essential firewall practices in MTCNA and is commo
 **3. Configuration Steps**
 ```bash
 MikroTik :
+# Prerequisite:
+# Ensure basic configuration is completed (Lab 1):
+# - IP Address configured
+# - NAT (masquerade) configured
+# - Internet access is working
+
 # 1. Allow Established and Related Connections
 /ip firewall filter add chain=input connection-state=established,related action=accept
 
@@ -51,6 +60,11 @@ VPCS :
 
 **4. Verification**
 
+Mikrotik :
+<img width="555" height="241" alt="image" src="https://github.com/user-attachments/assets/8ebe1c9f-ad34-4e79-ba45-6709fa5d4825" />
+
+VPC :
+<img width="475" height="232" alt="image" src="https://github.com/user-attachments/assets/2f79b2d4-79a6-4537-ba73-2c4f477f83cb" />
 <br>
 
 **5. Key Learning Points**
