@@ -8,6 +8,8 @@ This setup reflects a common implementation in office and home environments and 
 
 **2. Network Topology**
 
+<img width="348" height="419" alt="image" src="https://github.com/user-attachments/assets/105c8bb7-6b51-4864-96c0-a00ede88595e" />
+
 - **MikroTik Router** — acts as wireless access point and gateway  
 - **Wireless Interface (wlan1)** — provides Wi-Fi connectivity  
 - **LAN Network** — `172.16.10.0/24`  
