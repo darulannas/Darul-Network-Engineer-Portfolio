@@ -54,7 +54,7 @@ Expected verification in a physical environment:
 - Successful connectivity to gateway and internet  
 
 This approach ensures understanding of the configuration workflow despite the limitation of the simulation environment.
-<br>
+<br><br>
 
 **5. Key Learning Points**
 
