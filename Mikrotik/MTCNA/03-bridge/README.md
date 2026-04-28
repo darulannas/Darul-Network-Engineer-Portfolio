@@ -50,7 +50,11 @@ VPCS :
 
 **4. Verification**
 
+VPC1 :
+<img width="466" height="147" alt="image" src="https://github.com/user-attachments/assets/296c83f0-43ee-4a0b-819b-c533bdc3d0d2" />
 
+VPC2 :
+<img width="477" height="147" alt="image" src="https://github.com/user-attachments/assets/d8fac217-ff84-44bf-a607-ac04827239a1" />
 <br>
 
 **5. Key Learning Points**
