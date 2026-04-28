@@ -73,6 +73,7 @@ This approach ensures understanding of the configuration workflow despite the li
 <br>
 
 **7. Author Notes**
+
 This lab was created by Darul Annas as part of hands-on practice in MikroTik wireless configuration.
 It demonstrates how wireless networking can be integrated into an existing LAN to provide flexible access for users.
 
