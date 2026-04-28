@@ -4,7 +4,7 @@ This lab focuses on implementing basic firewall filter rules on a MikroTik route
 The router will be configured to allow legitimate traffic while blocking unwanted or potentially harmful connections.
 
 Before applying firewall rules, the router must already have a working internet connection and basic network configuration.
-This lab builds on the setup completed in Lab 1 (Initial Configuration).
+This lab builds on the setup completed in Lab 1 (Initial Configuration).\
 <br>
 
 **2. Network Topology**
