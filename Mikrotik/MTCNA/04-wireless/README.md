@@ -17,7 +17,6 @@ This setup reflects a common implementation in office and home environments and 
 **3. Configuration Steps**
 ```bash
 MikroTik :
-
 # 1. Set Wireless Mode to AP Bridge
 /interface wireless set wlan1 mode=ap-bridge ssid=MTCNA-WIFI disabled=no
 
@@ -36,7 +35,6 @@ wpa2-pre-shared-key=12345678
 /interface wireless print
 
 Wireless Client :
-
 # 1. Connect to SSID "MTCNA-WIFI"
 # 2. Enter password: 12345678
 # 3. Obtain IP automatically (DHCP)
