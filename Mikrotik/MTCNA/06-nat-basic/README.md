@@ -46,19 +46,25 @@ VPCS :
 
 **4. Verification**
 
-- Internal clients are able to access the internet using private IP addresses
-- NAT masquerade translates private IP to public IP on outbound traffic
-- Port forwarding rule directs incoming traffic to the correct internal host
-- NAT rules are visible and active in the router configuration
+Mikrotik :
+<img width="580" height="95" alt="image" src="https://github.com/user-attachments/assets/24720818-e1e1-40f5-b53e-bbb600035677" />
+
+VPC :
+<img width="474" height="124" alt="image" src="https://github.com/user-attachments/assets/9cc1039d-efcd-4f53-99fc-bb75b7b24c32" />
+
+- LAN client is able to reach external network (internet)
+- Private IP address is translated to public IP using masquerade
+- Incoming traffic on port 80 is forwarded to the internal web server
+- NAT rules are active and visible in the configuration
 <br>
 
 **5. Key Learning Points**
 
-- Understood the purpose of NAT in connecting private and public networks
-- Learned how masquerade dynamically translates source addresses
-- Introduced destination NAT for basic port forwarding
-- Observed how NAT rules affect traffic flow
-- Reinforced the relationship between NAT and firewall processing
+- Understood how NAT enables communication between private and public networks
+- Learned how masquerade dynamically handles outbound traffic translation
+- Implemented destination NAT to expose internal services
+- Recognized how NAT influences traffic flow through the router
+- Applied practical NAT configuration aligned with MTCNA fundamentals
 <br>
 
 **6. Tools Used**
@@ -70,8 +76,11 @@ VPCS :
 
 **7. Author Notes**
 
-This lab was created by Darul Annas as part of hands-on learning in MikroTik NAT configuration.
-It highlights how NAT plays a critical role in enabling internet access and controlling traffic direction between internal and external networks.
+This lab was created by Darul Annas as part of hands-on practice in MikroTik NAT configuration.
+It demonstrates how NAT is used to provide internet access and control inbound traffic to internal services.
+
+This documentation follows the MTCNA learning path:
+https://mikrotik.com/training/about
 
 This documentation follows the MTCNA learning path:
 https://mikrotik.com/training/about
