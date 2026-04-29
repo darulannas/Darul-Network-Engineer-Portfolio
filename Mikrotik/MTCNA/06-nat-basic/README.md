@@ -11,37 +11,36 @@ This scenario reflects real-world network deployments where NAT is applied on to
 
 **2. Network Topology**
 
-- **MikroTik Router** — acts as gateway and NAT device  
+<img width="348" height="417" alt="image" src="https://github.com/user-attachments/assets/e1bb585a-769c-44ae-85c8-db04baef8b06" />
+
+- **MikroTik Router (R1)** — acts as NAT device and gateway  
 - **LAN Network** — `172.16.10.0/24`  
-- **WAN Interface** — connected to ISP  
-- **Internal Client** — accesses internet via NAT  
-- **External Access** — simulated for port forwarding scenario  
+- **Client** — accesses internet using private IP  
+- **Web Server** — exposed using port forwarding  
 <br>
 
 **3. Configuration Steps**
 ```bash
 MikroTik :
 # Prerequisite:
-# Ensure basic configuration from Lab 1 is completed:
+# Ensure Lab 1 (Initial Configuration) is completed:
 # - IP Address configured
+# - Default route available
 # - Internet connectivity working
 
 # 1. Configure Source NAT (Masquerade)
-/ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
+/ip firewall nat add chain=srcnat out-interface=eth1 action=masquerade
 
-# 2. Verify NAT Rule
-/ip firewall nat print
-
-# 3. Configure Destination NAT (Port Forwarding Example)
-# Forward HTTP (port 80) to internal client (172.16.10.2)
+# 2. Configure Destination NAT (Port Forwarding)
+# Forward HTTP traffic to internal web server
 /ip firewall nat add chain=dstnat protocol=tcp dst-port=80 \
-action=dst-nat to-addresses=172.16.10.2 to-ports=80
+action=dst-nat to-addresses=172.16.10.3 to-ports=80
 
-# 4. Verify NAT Configuration
+# 3. Verify NAT Rules
 /ip firewall nat print
 
 VPCS :
-# Test internet connectivity (via NAT)
+# Test outbound connectivity
 /ping 8.8.8.8
 ```
 
