@@ -1,9 +1,12 @@
 **1. Project Overview**
 
-This lab demonstrates how Network Address Translation (NAT) is configured on a MikroTik router to enable communication between private and public networks.
-NAT allows internal devices to access external networks (internet) and also enables selective exposure of internal services to external users.
+This lab covers the implementation of Network Address Translation (NAT) on a MikroTik router to enable communication between a private LAN and an external network.  
+NAT allows internal devices to access the internet using a single public IP address, while also enabling inbound access to specific internal services through port forwarding.  
 
-This lab builds upon the initial configuration from Lab 1 and introduces both source NAT (masquerade) and basic destination NAT (port forwarding), which are fundamental concepts in MTCNA.\
+Before applying NAT configuration, the router must already have a working basic setup and LAN structure.  
+This lab assumes that the initial configuration from Lab 1 (Internet Access) and the bridge configuration from Lab 3 (Switching) have been completed.  
+
+This scenario reflects real-world network deployments where NAT is applied on top of an existing network infrastructure, and it aligns with fundamental concepts in MTCNA.  
 <br>
 
 **2. Network Topology**
