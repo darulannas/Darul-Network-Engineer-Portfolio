@@ -81,6 +81,3 @@ It demonstrates how NAT is used to provide internet access and control inbound t
 
 This documentation follows the MTCNA learning path:
 https://mikrotik.com/training/about
-
-This documentation follows the MTCNA learning path:
-https://mikrotik.com/training/about
