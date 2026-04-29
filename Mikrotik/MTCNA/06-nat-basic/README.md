@@ -42,6 +42,10 @@ action=dst-nat to-addresses=172.16.10.3 to-ports=80
 VPCS :
 # Test outbound connectivity
 /ping 8.8.8.8
+
+# (Simulation) Access web server via router public IP
+# Example (from external perspective):
+# http://192.168.52.131
 ```
 
 **4. Verification**
