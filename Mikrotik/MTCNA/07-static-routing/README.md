@@ -11,6 +11,8 @@ This scenario reflects a common real-world setup where multiple routers are used
 
 **2. Network Topology**
 
+<img width="343" height="413" alt="image" src="https://github.com/user-attachments/assets/642d526f-a10f-445b-a19e-8e2e3a3af490" />
+
 - **R1** — connects LAN 1  
 - **R2** — connects LAN 2  
 - **Inter-router link** — used for routing between networks  
