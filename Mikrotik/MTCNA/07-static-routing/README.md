@@ -52,6 +52,12 @@ VPCS :
 
 **4. Verification**
 
+VPC1 :
+<img width="465" height="147" alt="image" src="https://github.com/user-attachments/assets/048a1674-261b-4af2-9ac7-56baef3d3f8c" />
+
+VPC2 :
+<img width="475" height="151" alt="image" src="https://github.com/user-attachments/assets/4e40b11d-3f42-42da-9e12-b41c43e3bd1f" />
+
 - Devices in different networks can communicate successfully
 - Ping between Client A and Client B is successful
 - Routing table contains static routes for remote networks 
