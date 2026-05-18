@@ -1,21 +1,78 @@
-# Darul-Network-Engineer-Portfolio
+# Network Engineer Portfolio
 
-Mikrotik
-1. Initial Configuration - Internet Access
-   - WAN DHCP Client
-   - LAN IP address and default gateway
-   - Basic Firewall - NAT masquerade
+Welcome to my Network Engineering portfolio repository.
 
-2. Refactor firewall
-   - filter, NAT, mangle
+This repository contains my networking labs, configurations, documentation, troubleshooting cases, and learning roadmap related to enterprise network infrastructure and cloud networking.
 
-3. Troubleshooting
-   - Router trace: High CPU load on the main GCO router caused by queue issues and bonding interface in the area
-   - Router trace: High CPU load in Kamal due to high latency under the bridge interface
-   - IP conflict on DHCP servers at GCO and Kamal
-   - VPN connection unable to access the local network
+## About Me
 
+I am a Network Engineer with professional experience in:
+- MikroTik Routing & Switching
+- VPN Implementation
+- Firewall & NAT
+- Wireless Networking
+- Network Troubleshooting
+- Bandwidth Management
+- IT Infrastructure Support
 
-**Note : Other portfolio projects are currently in the documentation process and will be published soon**
+Currently expanding my skills in:
+- Cisco
+- FortiGate
+- AWS Cloud Networking
 
-     
+---
+
+## Repository Structure
+
+```bash
+.
+├── aws/
+├── cisco/
+├── fortigate/
+├── mikrotik/
+└── README.md
+```
+
+## Directory Information
+
+| Directory | Description |
+|---|---|
+| `mikrotik/` | Production-based configurations, labs, VPN, QoS, firewall, routing, troubleshooting |
+| `cisco/` | Cisco networking labs and learning documentation |
+| `fortigate/` | FortiGate firewall labs and security configurations |
+| `aws/` | AWS cloud networking and infrastructure roadmap |
+
+---
+
+## Goals
+
+This repository is created to:
+- Document my networking knowledge
+- Build a professional portfolio
+- Share labs and configurations
+- Track my learning progress
+- Improve enterprise networking skills
+
+---
+
+## Technologies
+
+- MikroTik RouterOS
+- Cisco
+- FortiGate
+- AWS
+- TCP/IP
+- VPN
+- VLAN
+- Routing
+- Firewall
+- Wireless
+
+---
+
+## Author
+
+Darul Annas
+
+- GitHub: https://github.com/darulannas
+- Portfolio: https://darulannas.github.io
