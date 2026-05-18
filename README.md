@@ -75,3 +75,5 @@ This repository is created to:
 Darul Annas
 
 - GitHub: https://github.com/darulannas
+
+**Note : Other portfolio projects are currently in the documentation process and will be published soon**
