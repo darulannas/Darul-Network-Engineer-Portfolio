@@ -75,4 +75,3 @@ This repository is created to:
 Darul Annas
 
 - GitHub: https://github.com/darulannas
-- Portfolio: https://darulannas.github.io
